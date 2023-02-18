@@ -1,4 +1,4 @@
-package com.openclassrooms.magicgithub.base;
+package com.openclassrooms.magicgithub.di.base;
 
 import com.openclassrooms.magicgithub.MagicGithubApplication;
 import com.openclassrooms.magicgithub.repository.UserRepository;
