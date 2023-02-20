@@ -17,7 +17,7 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public List<User> getUsers() {
-       return FAKE_USERS;
+       return users;
     }
 
 
@@ -36,7 +36,6 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void deleteUser(User user) {
-        // TODO: A modifier
         users.remove(user);
     }
 }
